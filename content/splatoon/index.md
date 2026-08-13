@@ -12,8 +12,14 @@ breadcrumbs = [
 [[sections]]
 heading = "コンテンツ"
 items = [
-  { title = "[WIP] [6.4] 絶オメガ検証戦", meta = "LilyDoll", href = "presets/top/" },
+  { title = "[6.4] 絶オメガ検証戦", meta = "LilyDoll", href = "presets/top/" },
   { title = "[7.5] 絶妖星乱舞", meta = "ヤーン＆イディル", href = "presets/dmad/" },
+]
+
+[[sections]]
+heading = "更新中"
+items = [
+  { title = "[更新中] [6.4] 絶オメガ検証戦", meta = "LilyDoll", href = "presets/top-wip/" },
 ]
 
 [[sections]]

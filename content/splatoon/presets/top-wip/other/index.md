@@ -1,12 +1,12 @@
 +++
-title = "その他 — 絶オメガ検証戦"
-description = "絶オメガ検証戦 その他"
+title = "その他 — [更新中] 絶オメガ検証戦"
+description = "[更新中] 絶オメガ検証戦 その他"
 nav = "splatoon"
 eyebrow = "other"
 page_title = "その他"
 breadcrumbs = [
   { label = "Splatoon", href = "../../../" },
-  { label = "[6.4] 絶オメガ検証戦", href = "../" },
+  { label = "[更新中] [6.4] 絶オメガ検証戦", href = "../" },
   { label = "その他", href = "" },
 ]
 +++
@@ -15,7 +15,7 @@ breadcrumbs = [
 
 ### Lemegeton
 
-[マーカー付与・タイムライン作成＋表示「Lemegeton」の紹介 - とらめもブログ](https://toramemoblog.com/lemegeton)
+～～近日中設定内容公開予定～～
 
 ### Chibi Omega
 

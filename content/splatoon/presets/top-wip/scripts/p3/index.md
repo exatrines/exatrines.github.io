@@ -1,13 +1,13 @@
 +++
-title = "フェーズ3 スクリプト — 絶オメガ検証戦"
-description = "絶オメガ検証戦 フェーズ3 スクリプト"
+title = "フェーズ3 スクリプト — [更新中] 絶オメガ検証戦"
+description = "[更新中] 絶オメガ検証戦 フェーズ3 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 3"
 page_title = "フェーズ3 ファイナルオメガ"
 lede = "コロッサスブロー / ハローワールド / 検知式波動砲"
 breadcrumbs = [
   { label = "Splatoon", href = "../../../../" },
-  { label = "[6.4] 絶オメガ検証戦", href = "../../" },
+  { label = "[更新中] [6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ3", href = "" },
 ]
 +++

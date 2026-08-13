@@ -1,12 +1,12 @@
 +++
-title = "レイアウト — 絶オメガ検証戦"
-description = "絶オメガ検証戦 レイアウト"
+title = "レイアウト — [更新中] 絶オメガ検証戦"
+description = "[更新中] 絶オメガ検証戦 レイアウト"
 nav = "splatoon"
 eyebrow = "layout"
 page_title = "レイアウト"
 breadcrumbs = [
   { label = "Splatoon", href = "../../../" },
-  { label = "[6.4] 絶オメガ検証戦", href = "../" },
+  { label = "[更新中] [6.4] 絶オメガ検証戦", href = "../" },
   { label = "レイアウト", href = "" },
 ]
 +++

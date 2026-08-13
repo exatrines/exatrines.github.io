@@ -1,13 +1,13 @@
 +++
-title = "フェーズ1 スクリプト — 絶オメガ検証戦"
-description = "絶オメガ検証戦 フェーズ1 スクリプト"
+title = "フェーズ1 スクリプト — [更新中] 絶オメガ検証戦"
+description = "[更新中] 絶オメガ検証戦 フェーズ1 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 1"
 page_title = "フェーズ1 オメガ"
 lede = "サークルプログラム / パントクラトル"
 breadcrumbs = [
   { label = "Splatoon", href = "../../../../" },
-  { label = "[6.4] 絶オメガ検証戦", href = "../../" },
+  { label = "[更新中] [6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ1", href = "" },
 ]
 +++
