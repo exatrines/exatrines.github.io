@@ -227,8 +227,8 @@ def md_to_html(md: str, depth: int) -> tuple[str, list[tuple[str, str]]]:
     return "\n".join(out), h2_toc
 
 
-def script_toc_html(items: list[tuple[str, str]]) -> str:
-    """In-page TOC for script titles (## headings)."""
+def script_toc_html(items: list[tuple[str, str]], label: str = "スクリプト") -> str:
+    """In-page TOC for ## headings."""
     if len(items) < 2:
         return ""
     lis = "\n".join(
@@ -236,8 +236,8 @@ def script_toc_html(items: list[tuple[str, str]]) -> str:
         for hid, title in items
     )
     return (
-        '<nav class="script-toc reveal" aria-label="スクリプトの目次">'
-        '<p class="script-toc-label">スクリプト</p>'
+        f'<nav class="script-toc reveal" aria-label="{html.escape(label)}">'
+        f'<p class="script-toc-label">{html.escape(label)}</p>'
         f'<ol class="script-toc-list">\n{lis}\n</ol>'
         "</nav>"
     )
@@ -713,7 +713,8 @@ def render_page(
     if md_html:
         parts_inner = ""
         if wants_script_toc(meta, og_path):
-            parts_inner += script_toc_html(h2_toc)
+            toc_label = str(meta.get("toc_label") or "スクリプト")
+            parts_inner += script_toc_html(h2_toc, toc_label)
         parts_inner += md_html
         body_parts.append(f'<article class="doc-content reveal">\n{parts_inner}\n</article>')
 

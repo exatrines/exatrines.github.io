@@ -26,6 +26,7 @@ Edit Markdown under `content/` (TOML frontmatter between `+++`).
 | --- | --- |
 | `content/index.md` | site home |
 | `content/dalamud-plugins/index.md` | `/dalamud-plugins/` |
+| `content/dalamud-plugins/oracle/index.md` | `/dalamud-plugins/oracle/` |
 | `content/splatoon/.../index.md` | `/splatoon/.../` |
 
 Useful frontmatter keys: `title`, `description`, `nav` (`dalamud` \| `splatoon` \| `support`), `page_title`, `eyebrow`, `lede`, `breadcrumbs`, `[[changelog]]` (`date`, `title`, `body`), `[[sections]]`, `redirect`, `layout = "home"` (top page).

@@ -17,7 +17,7 @@ id = "plugins"
 heading = "Plugins"
 compact = false
 items = [
-  { title = "[BETA] Oracle", href = "https://github.com/exatrines/Oracle", external = true, icon = "assets/oracle.png", description = "コンテンツ中の軽減やスキルのタイミングをオーバーレイで表示します。" },
+  { title = "Oracle", href = "oracle/", icon = "assets/oracle.png", description = "コンテンツ中の軽減やスキルのタイミングをオーバーレイで表示します。" },
   { title = "Enhanced Quick Panel", href = "https://github.com/exatrines/EnhancedQuickPanel", external = true, icon = "assets/enhanced-quick-panel.png", description = "クイックパネルをより使いやすいクイックパネルオーバーレイに置き換えます。" },
   { title = "DTR Overlay", href = "https://github.com/exatrines/DTROverlay", external = true, icon = "assets/dtr-overlay.png", description = "Dalamud の Server Info Bar をカスタマイズ可能なオーバーレイに置き換えます。" },
   { title = "Auto Frontline", href = "https://github.com/exatrines/AutoFrontline", external = true, icon = "assets/auto-frontline.png", description = "フロントラインの自動化プラグインです。" },
