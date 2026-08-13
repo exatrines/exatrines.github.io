@@ -24,5 +24,5 @@ P1とP3のオメガのサイズを小さくするプラグインです。録画�
 以下外部リポジトリを設定し、プラグイン一覧から「Chibi Omega」を有効化することで使用できます。
 
 ```
-https://github.com/paissaheavyindustries/Dalamud-Repo/blob/main/repo.json
+https://raw.githubusercontent.com/paissaheavyindustries/Dalamud-Repo/main/repo.json
 ```
