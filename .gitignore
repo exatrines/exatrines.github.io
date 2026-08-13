@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.venv/
+venv/
+.env
+
+# Cursor (rules, agents, local scripts, oneshots)
+.cursor/
+
+# Build output (Actions: python .github/scripts/build.py → deploy dist/)
+dist/
