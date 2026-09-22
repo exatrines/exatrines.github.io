@@ -81,7 +81,7 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Endwalker/
 #### URL
 
 ```
-https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Endwalker/The%20Omega%20Protocol/P3_Oversampled_Wave_Cannon_Cross_Strat.cs
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Endwalker/The%20Omega%20Protocol/P3_Oversampled_Wave_Cannon_Cross.cs
 ```
 
 #### コンフィグ: 十字式
