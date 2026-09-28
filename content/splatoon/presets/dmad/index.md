@@ -10,6 +10,21 @@ breadcrumbs = [
 ]
 
 [[changelog]]
+date = "2026/09/28"
+title = "P1 KB Support Line / P5 Forsaken Support 追加"
+body = """
+- （新規）Dmad P1 - KB Support Line
+- （新規）Dmad P5 - Forsaken Support
+
+追加だけしたい方はこちらから。
+
+```
+~Lv2~{"Name":"Dmad P1 - KB Support Line","Group":"絶妖星乱舞 - NXIV & mirage(translate)","ZoneLockH":[1363],"ElementsL":[{"Name":"trap remaining 5s","type":1,"refActorPlaceholder":["<2>","<3>","<4>","<5>","<6>","<7>","<8>","<1>"],"refActorRequireBuff":true,"refActorBuffId":[5078],"refActorUseBuffTime":true,"refActorBuffTimeMax":5.0,"refActorComparisonType":5,"Conditional":true,"Nodraw":true},{"Name":"Horizontal Support Line","type":2,"refX":85.0,"refY":100.0,"offX":115.0,"offY":100.0,"radius":0.0,"color":3355508732,"fillIntensity":0.5,"thicc":6.0},{"Name":"Vertical Support Line","type":2,"Enabled":false,"refX":100.0,"refY":85.0,"offX":100.0,"offY":115.0,"radius":0.0,"color":3355508732,"fillIntensity":0.5,"thicc":6.0}]}
+~Lv2~{"Name":"Dmad P5 - Forsaken Support","Group":"絶妖星乱舞 - NXIV & mirage(translate)","ZoneLockH":[1363],"Scenes":[9],"DCond":5,"UseTriggers":true,"Triggers":[{"Type":2,"Duration":60.0,"Match":">47925"}],"ElementsL":[{"Name":"Center Circle","refX":100.0,"refY":100.0,"radius":8.0,"color":3355508735,"fillIntensity":0.5,"thicc":10.0},{"Name":"Border","refX":100.0,"refY":100.0,"radius":11.0,"color":3355508735,"Filled":false,"fillIntensity":0.17,"thicc":10.0},{"Name":"Self Position","type":1,"color":3355508480,"fillIntensity":1.0,"thicc":5.0,"refActorType":1},{"Name":"","type":1,"radius":8.0,"castAnimation":1,"refActorNPCNameID":7131,"refActorRequireCast":true,"refActorCastId":[47927],"refActorComparisonType":6},{"Name":"","type":1,"radius":8.0,"fillIntensity":0.5,"castAnimation":1,"pulseSize":0.35,"refActorNPCNameID":7131,"refActorRequireCast":true,"refActorCastId":[47928],"refActorComparisonType":6}],"BlacklistedProjectorActions":[47927,47928]}
+```
+"""
+
+[[changelog]]
 date = "2026/07/07"
 title = "P5 エクサフレアレイアウト差し替え"
 body = """
