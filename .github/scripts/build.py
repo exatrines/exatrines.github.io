@@ -51,6 +51,7 @@ def make_heading_id(label: str, used: dict[str, int]) -> str:
     """Stable-ish fragment id for headings (Japanese-friendly)."""
     slug = re.sub(r"\s+", "-", label.strip())
     slug = re.sub(r"[^\w\-一-龥ぁ-んァ-ヶー＋+]", "", slug, flags=re.UNICODE)
+    slug = re.sub(r"-{2,}", "-", slug)
     slug = slug.strip("-") or "section"
     n = used.get(slug, 0)
     used[slug] = n + 1
@@ -251,6 +252,8 @@ def wants_script_toc(meta: dict, og_path: str) -> bool:
     return (
         "/presets/dmad/scripts/" in path
         or "/presets/top/scripts/" in path
+        or "/presets/top-old/scripts/" in path
+        or "/presets/dsr/scripts/" in path
     )
 
 
@@ -699,24 +702,26 @@ def render_page(
             body_parts.append(f'<p class="lede reveal">{html.escape(str(lede))}</p>')
         body_parts.append("</section>")
 
-    # Order: optional changelog first, then product sections, then freeform MD
-    if changelog:
-        body_parts.append(changelog_html(changelog, depth))
-
-    if sections:
-        body_parts.append(sections_html(sections, depth))
-
     md_html = ""
     h2_toc: list[tuple[str, str]] = []
     if body_md.strip():
         md_html, h2_toc = md_to_html(body_md.strip(), depth)
+    article_html = ""
     if md_html:
         parts_inner = ""
         if wants_script_toc(meta, og_path):
             toc_label = str(meta.get("toc_label") or "スクリプト")
             parts_inner += script_toc_html(h2_toc, toc_label)
         parts_inner += md_html
-        body_parts.append(f'<article class="doc-content reveal">\n{parts_inner}\n</article>')
+        article_html = f'<article class="doc-content reveal">\n{parts_inner}\n</article>'
+
+    # Order: page notes, changelog, product cards
+    if article_html:
+        body_parts.append(article_html)
+    if changelog:
+        body_parts.append(changelog_html(changelog, depth))
+    if sections:
+        body_parts.append(sections_html(sections, depth))
 
     body = "\n".join(body_parts)
 

@@ -1,6 +1,6 @@
 +++
 title = "Dalamud Plugins — mirage"
-description = "mirage の Dalamud プラグイン。Oracle / Enhanced Quick Panel / DTR Overlay / Auto Frontline など。"
+description = "mirage の Dalamud プラグイン。Oracle / Goetia / Enhanced Quick Panel / DTR Overlay / Auto Frontline など。"
 nav = "dalamud"
 eyebrow = "plugins"
 page_title = "Dalamud Plugins"
@@ -18,6 +18,7 @@ heading = "Plugins"
 compact = false
 items = [
   { title = "Oracle", href = "oracle/", icon = "assets/oracle.png", description = "コンテンツ中の軽減やスキルのタイミングをオーバーレイで表示します。" },
+  { title = "Goetia", href = "goetia/", icon = "assets/goetia.png", description = "ギミックに応じてマーカー用のホットバーをハイライトしマーカー付与を補助します。" },
   { title = "Enhanced Quick Panel", href = "https://github.com/exatrines/EnhancedQuickPanel", external = true, icon = "assets/enhanced-quick-panel.png", description = "クイックパネルをより使いやすいクイックパネルオーバーレイに置き換えます。" },
   { title = "DTR Overlay", href = "https://github.com/exatrines/DTROverlay", external = true, icon = "assets/dtr-overlay.png", description = "Dalamud の Server Info Bar をカスタマイズ可能なオーバーレイに置き換えます。" },
   { title = "Auto Frontline", href = "https://github.com/exatrines/AutoFrontline", external = true, icon = "assets/auto-frontline.png", description = "フロントラインの自動化プラグインです。" },
