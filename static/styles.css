@@ -109,6 +109,14 @@ img {
   line-height: 1.75;
 }
 
+article.doc-content:has(+ .list-section) {
+  padding-bottom: 0.5rem;
+}
+
+article.doc-content:has(+ .list-section) > :last-child {
+  margin-bottom: 0;
+}
+
 .doc-content h2 {
   margin: 2rem 0 0.7rem;
   padding: 0;
@@ -495,7 +503,8 @@ img {
 
 .lede {
   margin: 1.35rem 0 0;
-  max-width: 34rem;
+  width: 100%;
+  max-width: none;
   color: var(--ink-soft);
   font-size: 1.08rem;
 }

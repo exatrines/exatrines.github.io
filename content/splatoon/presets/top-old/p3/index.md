@@ -5,7 +5,7 @@ nav = "splatoon"
 eyebrow = "endwalker · top"
 page_title = "フェーズ3 ファイナルオメガ"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../" },
+  { label = "Splatoon Presets", href = "../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../" },
   { label = "フェーズ3", href = "" },
 ]

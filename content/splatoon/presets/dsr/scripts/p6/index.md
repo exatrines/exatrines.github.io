@@ -4,82 +4,47 @@ description = "絶竜詩戦争 フェーズ6 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 6"
 page_title = "フェーズ6 二天竜"
-lede = "竜の息吹 / 邪念の炎 / カータライズ"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
-  { label = "[準備中] [6.1] 絶竜詩戦争", href = "../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
+  { label = "[6.1] 絶竜詩戦争", href = "../../" },
   { label = "フェーズ6", href = "" },
 ]
 +++
 
-邪念の炎の分担マーカーは [DSR Toolbox](../../plugins/dsrtoolbox/) 側でも出せます。範囲描画は Splatoon を使います。
+## P6 聖竜/邪竜の息吹 1回目
 
-## P6 竜の息吹 1回目
-
-エンチャント（火 / 氷）とタンク頭割りをもとに、散開先がガイドされます。優先度設定が必要です。
+タンクはブレスの頭割りまたは散開、ヒラとDPSは三角形散開がガイドされます。
 
 #### URL
 
 ```
-https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wyrmsbreath%20First.cs
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wyrmsbreath%20First.cs
 ```
 
-#### コンフィグ: 既定
-
-`PriorityEditor`（`/splatoon p`）の設定を行ってください。
+#### コンフィグ
 
 ```
-設定不要
+{"TargetScriptName":"SplatoonScriptsOfficial.Duties.Endwalker.Dragonsong_s_Reprise@P6_Wyrmsbreath_First","ConfigurationName":"絶竜詩戦争_LilyDoll","Configuration":"G1UFAKwK7IbzB2oM2FRvYIQIJ9Ibqvd2f9+ZeQIV/O+B8kkHMisNt60XKI4HoySLgkvolJlbwdH5PVfb61Q/7hD/dF5YlCYws9QLF7UXsDeWubWJy55B5M1SmPsce/R5owVwX28+0UPE428AL0KbGt4ZC5+MkhM6UsYt8gJrSnPyGThM/CRHfIGssXB7Fr64AM77Fhb0OypumGWPoQkIANPhS37CGHWCxGVOnAkamUHuKo6/LK/6dYkCn5ECFwUhOkIUuOSDqTC7c3wNO5azMHiX+8icqcjd9NrpbrtPlXo2JAa6ybZl4jeKEpdjzshZrBEYsCWJajuLKEO4578M+eIWE1oX","Overrides":null}
 ```
 
 ## P6 邪念の炎
 
-散開デバフ / 頭割りデバフ / 無職をもとに、安置と散開先がガイドされます。翼と尾のブレス向きも見ます。
+移動の開始位置と、マーカーまたは優先度に基づく散開先がガイドされます。オートマーカーを使う場合と使わない場合で、コンフィグを選んでください。
 
 #### URL
 
 ```
-https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wroth%20Flames.cs
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wroth%20Flames.cs
 ```
 
-#### コンフィグ: 既定
-
-マクロの散開位置に合わせて設定画面を確認してください。
+#### コンフィグ: オートマーカー使用
 
 ```
-設定不要
+{"TargetScriptName":"SplatoonScriptsOfficial.Duties.Endwalker.Dragonsong_s_Reprise@P6_Wroth_Flames","ConfigurationName":"絶竜詩戦争_LilyDoll_オートマーカー使用","Configuration":"GxgFoKwKbHDOS3bRPtRP5qAgLXa8Lllc3lNh97dBRLr6NkyMyFZzWyEZulxoGppiMYhgUW0DhwyeL7P8h87VpfPYQB6tFcTdr8VKDSYCe0cXffQIYNTpKJYeHnp3YROx8Yk9nO834rtIcqVEL5fMLxpQbPI0kJchrYM/3JRW3oJXoWDsI1d+bqA0N97ysTMJHdvoQR3yoKCiavAMsUPid2FYx8Je2vvewmhvts0OAsa/WbG6tWZFDIwR55/s6k+QBw2YFPmBCk36Ev86twRxBr6VNaCywSlWHDXETdyQ8af68j+n5FGdqYeirUTOMQalVPzUsVH2mI0D","Overrides":"W6pUAcSiwG6Y8y58BJHeJqxhB6w9liwg76mz+1sifc6cpPz8ekBIQ8zcS/eLtjXtN2w2Yjlc2+0khSAJtRf/v7XXEwlkJYJQbOS/894EgCWh3+ybCRBXqNbFm5xqtSntugKryG/rcqr+y2aBrT0XLOlkxLhXuu9EsZ7eUHNCSA59SCUT1RaG0RTVK08/qSdRwQKjlqHh/1IIdj0HacihuQ3lKRzEqFQRrR/3+sxNDX8vLr1FzLF0pz9NS6WqZ7iqpejPuaBTFhpqH2FN1G14gBqaaCJ4z/Y5l+nfEv5PlKzZ0fvK6fDYb5mZhcMVG/SzdP+QqpEE82i1l/Kf1LlSR81EVQ2NRHaqga3hjTIcHtQ0hLP74OrY0Z2uMwFNEOcfJCIVPTWD+K4kXrHB7koHEqpw+5iP2Bz6bXsDeylauTQuaAIaVqBz2WKG2HL2x0GQNUQ99K6JXcN0zrv6o5NBM29dzWWTJWKwMvmrldEYtm54v8eN++O9eT/nH3TBpoBAOzal72rYYjC3T0IbpJgSqo1CQ8MovAO65MbKt6mEX+YSaJxwvMaMQi1/J2eGi2x/eew5SLg6YUKkTWZAGY/ydKAz91wOnLDNDxge6BJJpoKgVFhrThMVK+dq9VAuHRpzCxShS6V0yAnaoOLxQnxkTXTKNW5XK9UZVxnXB79BmwkqnZoEKsm49tyZpTJLH9YN2kxTaWmoRu+xRorSttYqzjYMRvGUnkkCZFnBqM6ASo+mGEsmijHVKWePR3amySbm1KHFMPKkEGrFYRO9EpvNSqji8qq0RWbBvMpwlr68de57siw7lHyCPCetyDzBcrmBKjA73uUrpxHQwJePD5KrjIOcAUnukKFu6fATOGRDsTSKRx1cBU4qfxR0YS8qOpSKNMUTES7XUvHUwJrVzuwLIasga2TJo0L2msI7c+6H1TfEPJ2AzRvJJAqUtrNPXWsOgrvA0ruuvmWrkp2ZoixEssinzWFWF30nnigJFs2Nx0vcPfHdY44fgaQXmPwfmWhtvOoF8ccE+AOaC7Rkz+/WdO8qciC4oJirU4+RICAlMjU7yzxmcX7W38UmL+oBu2fN7Pg/4VlMOW4j6gkA1gtOAMHMbj0WDoxPvZ9ljKgnAAiwqBsIZArflr0N3WJ8ficASAv+mfM7i0P81gTTy3cCAC2yGsCL296jlpf1BACsuri1BDODtPLE9VHD8AQADF1cKqr3p/wiXq4RricAcC+hJv3mWE+isJuvlA0R8QQAVd2N9MOLlGEMYgbPjwUAhNtA5vD7sQCAgkAW8DuxAEAAfvmiF/EzZAFA6kBm8DmxACCAl2n44wUAdxeRXfTHCwAWfvHi37ERB5/3CgDSIL/oQfQdCwDm6NyLk+9YAIDRhRcnH7EAAHli9D5i+oxXACD0ZP0ZsQAgtxfxGg1vLn5iAYAqali7AKAkbjc0lGWs9afMqfZViFAd"}
 ```
 
-## P6 カータライズ 危険範囲
-
-沸騰中はニーズヘッグ、氷結中はフレースヴェルグのカータライズ範囲が表示されます。自分が踏んではいけない方だけ出ます。
-
-#### URL
+#### コンフィグ: オートマーカー無し
 
 ```
-https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/DSR_P6_Cauterize_Unsafe.cs
-```
-
-#### コンフィグ: 既定
-
-```
-設定不要
-```
-
-## P6 オートターゲットスイッチャー
-
-二体の HP 差を見てターゲットを切り替えます。アク・アファーやブレスのタイミングに合わせた切替もあります。導入は任意です。
-
-#### URL
-
-```
-https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20AutoTargetSwitcher.cs
-```
-
-#### コンフィグ: 既定
-
-切替の閾値は設定画面で調整できます。
-
-```
-設定不要
+{"TargetScriptName":"SplatoonScriptsOfficial.Duties.Endwalker.Dragonsong_s_Reprise@P6_Wroth_Flames","ConfigurationName":"絶竜詩戦争_LilyDoll_オートマーカー無し","Configuration":"GzAFgKwK7LZmqyP2YftUDRhKGWe6Lllc3lNh97dBRLr6wgYcarXh5rZCMnS50DQ0xWIQwaLaBg4ZPF9m+Q8d/+nUBBdI0NZA/C9jdtrY2ArcPzoOeoE9Z7U1Byc5tLQCaWXg8jl0uqfET5HkYoneLqpfNMBQrOnDWj7dTrJwbYb5ENISiLGvXPl5BaVT440feyShw1d6EIgyX4JRzXiJuE39rgyBrOyDffAbsDg45FTrBW/8zoqL80azcCIjE9nBu18CA4HAzNKPYGgGwp1tf3ndrF3SYHejx0iDaO0jDRqb0ARhp1zLWinkwYKzupxRre6GqeBY34lBkgsA2/RC0Y2ajushaK7FN5CzppWTcQ==","Overrides":"W6pUAcSiwG6Y8y58BJHeJqxhB6w9liwg76mz+1sifc6cpPz8ekBIQ8zcS/eLtjXtN2w2Yjlc2+0khSAJtRf/v7XXEwlkJYJQbOS/894EgCWh3+ybCRBXqNbFm5xqtSntugKryG/rcqr+y2aBrT0XLOlkxLhXuu9EsZ7eUHNCSA59SCUT1RaG0RTVK08/qSdRwQKjlqHh/1IIdj0HacihuQ3lKRzEqFQRrR/3+sxNDX8vLr1FzLF0pz9NS6WqZ7iqpejPuaBTFhpqH2FN1G14gBqaaCJ4z/Y5l+nfEv5PlKzZ0fvK6fDYb5mZhcMVG/SzdP+QqpEE82i1l/Kf1LlSR81EVQ2NRHaqga3hjTIcHtQ0hLP74OrY0Z2uMwFNEOcfJCIVPTWD+K4kXrHB7koHEqpw+5iP2Bz6bXsDeylauTQuaAIaVqBz2WKG2HL2x0GQNUQ99K6JXcN0zrv6o5NBM29dzWWTJWKwMvmrldEYtm54v8eN++O9eT/nH3TBpoBAOzal72rYYjC3T0IbpJgSqo1CQ8MovAO65MbKt6mEX+YSaJxwvMaMQi1/J2eGi2x/eew5SLg6YUKkTWZAGY/ydKAz91wOnLDNDxge6BJJpoKgVFhrThMVK+dq9VAuHRpzCxShS6V0yAnaoOLxQnxkTXTKNW5XK9UZVxnXB79BmwkqnZoEKsm49tyZpTJLH9YN2kxTaWmoRu+xRorSttYqzjYMRvGUnkkCZFnBqM6ASo+mGEsmijHVKWePR3amySbm1KHFMPKkEGrFYRO9EpvNSqji8qq0RWbBvMpwlr68de57siw7lHyCPCetyDzBcrmBKjA73uUrpxHQwJePD5KrjIOcAUnukKFu6fATOGRDsTSKRx1cBU4qfxR0YS8qOpSKNMUTES7XUvHUwJrVzuwLIasga2TJo0L2msI7c+6H1TfEPJ2AzRvJJAqUtrNPXWsOgrvA0ruuvmWrkp2ZoixEssinzWFWF30nnigJFs2Nx0vcPfHdY44fgaQXmPwfmWhtvOoF8ccE+AOaC7Rkz+/WdO8qciC4oJirU4+RICAlMjU7yzxmcX7W38UmL+oBu2fN7Pg/4VlMOW4j6gkA1gtOAMHMbj0WDoxPvZ9ljKgnAAiwqBsIZArflr0N3WJ8ficASAv+mfM7i0P81gTTy3cCAC2yGsCL296jlpf1BACsuri1BDODtPLE9VHD8AQADF1cKqr3p/wiXq4RricAcC+hJv3mWE+isJuvlA0R8QQAVd2N9MOLlGEMYgbPjwUAhNtA5vD7sQCAgkAW8DuxAEAAfvmiF/EzZAFA6kBm8DmxACCAl2n44wUAdxeRXfTHCwAWfvHi37ERB5/3CgDSIL/oQfQdCwDm6NyLk+9YAIDRhRcnH7EAAHli9D5i+oxXACD0ZP0ZsQAgtxfxGg1vLn5iAYAqali7AKAkbjc0lGWs9afMqfZViFAd"}
 ```

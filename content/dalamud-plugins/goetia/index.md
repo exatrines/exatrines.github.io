@@ -4,7 +4,6 @@ description = "ギミックに応じてマーカー用のホットバーをハ�
 nav = "dalamud"
 eyebrow = "dalamud · goetia"
 page_title = "Goetia"
-lede = "ギミックに応じてマーカー用のホットバーをハイライトします。"
 footer_href = "https://github.com/exatrines/Goetia"
 footer_label = "Repo on GitHub"
 toc = true

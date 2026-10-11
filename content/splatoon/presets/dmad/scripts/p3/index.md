@@ -4,9 +4,8 @@ description = "絶妖星乱舞 フェーズ3 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 3"
 page_title = "フェーズ3 エクスデス ＆ カオス"
-lede = "バウル・オブ・アゴニー / リミッターカット / ブラックホール"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[7.5] 絶妖星乱舞", href = "../../" },
   { label = "フェーズ3", href = "" },
 ]
@@ -64,7 +63,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 ## P3 ブラックホール
 
-ブラックホールの紐取りと最後の塔踏み＆頭割りがガイドされます。設定画面は日本語で記載されているので、一部の補足のみ追記しています。
+ブラックホールの紐取りと最後の塔踏みと頭割りがガイドされます。設定画面は日本語で記載されているので、一部の補足のみ追記しています。
 
 ![](/assets/splatoon/dmad/20260629052206.png)
 

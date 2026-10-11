@@ -5,7 +5,7 @@ nav = "splatoon"
 eyebrow = "layout"
 page_title = "レイアウト"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../" },
+  { label = "Splatoon Presets", href = "../../../" },
   { label = "[7.5] 絶妖星乱舞", href = "../" },
   { label = "レイアウト", href = "" },
 ]
@@ -61,7 +61,7 @@ breadcrumbs = [
 
 ### 狂気のオーケストラ散開
 
-Configuration 設定が必要です。「絶妖星乱舞_○○」（○○は自分のロール）を選択してください。
+Configuration の設定が必要です。「絶妖星乱舞_○○」（○○は自分のロール）を選択してください。
 
 #### ヤーン速報
 

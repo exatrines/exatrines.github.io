@@ -4,17 +4,16 @@ description = "絶オメガ検証戦向け Goetia の設定"
 nav = "splatoon"
 eyebrow = "other"
 page_title = "Goetia"
-lede = "ギミックに応じてマーカー用のホットバーをハイライトします。"
 toc = true
 toc_label = "目次"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "Goetia", href = "" },
 ]
 +++
 
-ギミックに応じてマーカー用のホットバーをハイライトする、手動マーカー補助プラグインです。ホットバーの対応付け設定が必要なので、詳細は [Goetia](/dalamud-plugins/goetia/) を参照してください。
+ギミックに応じてマーカー用のホットバーをハイライトする、手動マーカー補助プラグインです。ホットバーの対応付けが必要なので、詳細は [Goetia](/dalamud-plugins/goetia/) を参照してください。
 
 ## 導入
 

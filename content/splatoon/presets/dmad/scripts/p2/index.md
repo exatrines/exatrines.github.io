@@ -4,9 +4,8 @@ description = "絶妖星乱舞 フェーズ2 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 2"
 page_title = "フェーズ2 ゴッドケフカ"
-lede = "ミッシング / トライン"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[7.5] 絶妖星乱舞", href = "../../" },
   { label = "フェーズ2", href = "" },
 ]
@@ -14,7 +13,7 @@ breadcrumbs = [
 
 ## P2 ミッシング（優先度）
 
-ミッシングが完全にガイドされます。突入毎のPriorityEditor設定が適切である必要があるので注意が必要です。
+ミッシングが完全にガイドされます。突入ごとの PriorityEditor 設定が適切である必要があるので、注意が必要です。
 
 ![](/assets/splatoon/dmad/20260629024422.png)
 
@@ -34,7 +33,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 ## P2 ミッシング（南調整）
 
-ミッシングが完全にガイドされます。突入毎のPriorityEditor設定が適切である必要があるので注意が必要です。
+ミッシングが完全にガイドされます。突入ごとの PriorityEditor 設定が適切である必要があるので、注意が必要です。
 
 ![](/assets/splatoon/dmad/20260629022716.png)
 
@@ -54,7 +53,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 ## P2 ミッシング 各種ヒント表示
 
-プレイヤーの頭上に担当（頭割り・円・扇）や塔担当者からAOEなど表示します。特に扇が誰に向いているかがわかりやすいので導入をお勧めします。
+プレイヤーの頭上に、担当（頭割り・円・扇）や塔担当者からの AOE などを表示します。特に扇が誰に向いているかがわかりやすいので導入をお勧めします。
 
 ![](/assets/splatoon/dmad/20260629032009.png)
 
@@ -74,7 +73,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 ## P2 トライン
 
-トラインの移動先がガイドされます。設定画面が日本語で記載されているので、必要な場合は調整して使用してください。
+トラインの移動先がガイドされます。設定画面が日本語で記載されているので、必要な場合は調整して使ってください。
 
 #### URL
 
@@ -90,7 +89,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 ## P2 トライン AOE表示
 
-トラインのAOEが表示されます。設定は初期設定で問題ありませんが、表示する色を細かく設定できるので視認性を気にする方は調整して使用してください。
+トラインのAOEが表示されます。初期設定のままで問題ありませんが、表示する色を細かく設定できるので、視認性を気にする方は調整して使ってください。
 
 ![](/assets/splatoon/dmad/20260629030029.png)
 
@@ -100,7 +99,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/Dancing%20Mad/P2_Trine_Effects.cs
 ```
 
-#### コンフィグ: 既定
+#### コンフィグ
 
 ```
 設定不要

@@ -4,7 +4,7 @@ Portfolio site for [mirage](https://github.com/exatrines).
 
 - Home: https://exatrines.github.io/
 - Plugins: https://exatrines.github.io/dalamud-plugins/
-- Splatoon: https://exatrines.github.io/splatoon/
+- Splatoon Presets: https://exatrines.github.io/splatoon/
 - Support: https://exatrines.github.io/support/
 
 ## Layout

@@ -1,12 +1,12 @@
 +++
-title = "FAQ — Splatoon"
+title = "FAQ — Splatoon Presets"
 description = "Splatoon レイアウト・スクリプトの取り込み方法。"
 nav = "splatoon"
 eyebrow = "faq"
 page_title = "FAQ"
 lede = "レイアウトとスクリプトの取り込み手順です。"
 breadcrumbs = [
-  { label = "Splatoon", href = "../" },
+  { label = "Splatoon Presets", href = "../" },
   { label = "FAQ", href = "" },
 ]
 +++

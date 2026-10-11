@@ -1,11 +1,11 @@
 +++
-title = "[7.5] 絶妖星乱舞 — Splatoon"
+title = "[7.5] 絶妖星乱舞 — Splatoon Presets"
 description = "絶妖星乱舞 レイアウト / スクリプト"
 nav = "splatoon"
 eyebrow = "dawntrail · dmad"
 page_title = "[7.5] 絶妖星乱舞"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../" },
+  { label = "Splatoon Presets", href = "../../" },
   { label = "[7.5] 絶妖星乱舞", href = "" },
 ]
 
@@ -88,6 +88,6 @@ items = [
   { title = "フェーズ2", meta = "ゴッドケフカ", href = "scripts/p2/" },
   { title = "フェーズ3", meta = "エクスデス＆カオス", href = "scripts/p3/" },
   { title = "フェーズ4", meta = "おちょくりソウル", href = "scripts/p4/" },
-  { title = "フェーズ5", meta = "アルテマケフカ", href = "scripts/p5/" },
+  { title = "フェーズ5", meta = "アルティメットケフカ", href = "scripts/p5/" },
 ]
 +++

@@ -5,7 +5,7 @@ nav = "splatoon"
 eyebrow = "script"
 page_title = "P1 パントクラトル 優先度処理"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "P1 パントクラトル", href = "" },
 ]

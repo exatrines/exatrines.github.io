@@ -4,11 +4,10 @@ description = "絶オメガ検証戦向け Chibi Omega の設定"
 nav = "splatoon"
 eyebrow = "other"
 page_title = "Chibi Omega"
-lede = "P1 / P3 のオメガを小さくします。"
 toc = true
 toc_label = "目次"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "Chibi Omega", href = "" },
 ]

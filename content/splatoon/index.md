@@ -1,18 +1,15 @@
 +++
-title = "Splatoon — mirage"
-description = "絶竜詩戦争・絶オメガ検証戦・絶妖星乱舞の Splatoon プリセットとスクリプト。"
+title = "Splatoon Presets — mirage"
+description = "各種コンテンツで便利な、Splatoon用のレイアウト・スクリプトや補助プラグインをまとめています。"
 nav = "splatoon"
 eyebrow = "splatoon"
-page_title = "Splatoon"
-lede = "絶竜詩戦争・絶オメガ検証戦・絶妖星乱舞のレイアウト・スクリプトをまとめています。"
-breadcrumbs = [
-  { label = "Splatoon", href = "" },
-]
+page_title = "Splatoon Presets"
+lede = "各種コンテンツで便利な、Splatoon用のレイアウト・スクリプトや補助プラグインをまとめています。"
 
 [[sections]]
 heading = "コンテンツ"
 items = [
-  { title = "[準備中] [6.1] 絶竜詩戦争", meta = "LilyDoll", href = "presets/dsr/" },
+  { title = "[6.1] 絶竜詩戦争", meta = "LilyDoll", href = "presets/dsr/" },
   { title = "[6.4] 絶オメガ検証戦", meta = "LilyDoll", href = "presets/top/" },
   { title = "[7.5] 絶妖星乱舞", meta = "ヤーン＆イディル", href = "presets/dmad/" },
 ]

@@ -5,7 +5,7 @@ nav = "splatoon"
 eyebrow = "script"
 page_title = "P5 シグマ ハロワ"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "P5 シグマ ハロワ", href = "" },
 ]

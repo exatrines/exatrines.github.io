@@ -5,7 +5,7 @@ nav = "splatoon"
 eyebrow = "endwalker · top"
 page_title = "フェーズ5 デルタ"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ5 デルタ", href = "" },
 ]

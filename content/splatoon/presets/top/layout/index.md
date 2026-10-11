@@ -5,7 +5,7 @@ nav = "splatoon"
 eyebrow = "layout"
 page_title = "レイアウト"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../" },
+  { label = "Splatoon Presets", href = "../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../" },
   { label = "レイアウト", href = "" },
 ]
@@ -13,7 +13,7 @@ breadcrumbs = [
 
 ## 基本レイアウト
 
-P5 オメガの AOE は視認性の問題で、デフォルトでは非表示です。AOE 自体はスクリプトで回避できますが、必要な場合は個別で有効化してください。
+P5 オメガの AOE は視認性の問題で、デフォルトでは非表示です。AOE 自体はスクリプトで回避できますが、必要な場合は個別に有効にしてください。
 
 ```
 ~Lv2~{"Name":"P1 - General","Group":"絶オメガ検証戦 - mirage","ZoneLockH":[1122],"Scenes":[2],"ConditionalAnd":true,"ElementsL":[{"Name":"1st target","type":1,"radius":0.0,"color":4294965504,"overlayBGColor":4294965504,"overlayTextColor":3355443200,"overlayVOffset":2.0,"thicc":5.0,"overlayText":"1st","refActorRequireBuff":true,"refActorBuffId":[3004],"refActorComparisonType":1,"refActorType":1,"onlyVisible":true},{"Name":"2nd target","type":1,"radius":0.0,"color":3364749567,"overlayBGColor":3364749567,"overlayVOffset":2.0,"thicc":5.0,"overlayText":"2nd","refActorRequireBuff":true,"refActorBuffId":[3005],"refActorComparisonType":1,"refActorType":1,"onlyVisible":true},{"Name":"3rd target","type":1,"radius":0.0,"color":3372156928,"overlayBGColor":3372156928,"overlayVOffset":2.0,"thicc":5.0,"overlayText":"3rd","refActorRequireBuff":true,"refActorBuffId":[3006],"refActorComparisonType":1,"refActorType":1,"onlyVisible":true},{"Name":"4th target","type":1,"radius":0.0,"color":3359113471,"overlayBGColor":3359113471,"overlayVOffset":2.0,"thicc":5.0,"overlayText":"4th","refActorRequireBuff":true,"refActorBuffId":[3451],"refActorComparisonType":1,"refActorType":1,"onlyVisible":true},{"Name":"bat missile reminder","type":1,"radius":5.0,"color":3355507967,"Filled":false,"fillIntensity":0.39215687,"overlayBGColor":3355443200,"overlayTextColor":4278255600,"overlayVOffset":3.0,"overlayFScale":2.0,"overlayPlaceholders":true,"thicc":0.0,"overlayText":"!! Move forward !!","overlayTextIntl":{"Jp":"!! 前へ !!"},"refActorRequireBuff":true,"refActorBuffId":[3424,3495,3496,3497],"refActorUseBuffTime":true,"refActorBuffTimeMax":6.0,"refActorComparisonType":1,"refActorType":1,"onlyVisible":true}],"BlacklistedProjectorActions":[32368,31501],"ForcedProjectorActions":[31500]}

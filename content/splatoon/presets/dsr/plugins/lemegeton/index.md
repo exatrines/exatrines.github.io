@@ -4,17 +4,16 @@ description = "絶竜詩戦争向け Lemegeton の設定"
 nav = "splatoon"
 eyebrow = "other"
 page_title = "Lemegeton"
-lede = "ギミックに応じてオートマーカーを付与します。"
 toc = true
 toc_label = "目次"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
-  { label = "[準備中] [6.1] 絶竜詩戦争", href = "../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
+  { label = "[6.1] 絶竜詩戦争", href = "../../" },
   { label = "Lemegeton", href = "" },
 ]
 +++
 
-ギミックに応じてオートマーカーを付与するプラグインです。オートマーキングはパーティメンバーに「ツールバレ」するリスクがあるので注意が必要です。また、アップデート直後はプラグインが使用できるようになるまでに時間がかかることが多いです。
+ギミックに応じてオートマーカーを付与するプラグインです。オートマーキングはパーティメンバーに「ツールバレ」するリスクがあるので注意が必要です。アップデート直後は、プラグインが使えるようになるまで時間がかかることが多いです。
 
 ## 導入
 
@@ -38,4 +37,14 @@ https://raw.githubusercontent.com/paissaheavyindustries/Dalamud-Repo/main/repo.j
 
 コンテンツ > 絶レイド > 絶竜詩戦争で、必要なギミックだけ有効にしてください。
 
-ギミック別のマーカー設定は準備中です。
+![](/assets/splatoon/dsr/lemegeton_contents.png)
+
+### チェインライトニングオートマーカー
+
+![](/assets/splatoon/dsr/lemegeton_p5_chain.png)
+
+### 邪念の炎オートマーカー
+
+[DSR Toolbox](../dsrtoolbox/) の Flames Automarker と競合するので、オートマーカーを使う場合は必ずどちらか一方だけを有効にしてください。
+
+![](/assets/splatoon/dsr/lemegeton_p6_flames.png)

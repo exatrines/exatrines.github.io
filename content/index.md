@@ -11,7 +11,7 @@ label = "Dalamud Plugins"
 href = "dalamud-plugins/"
 
 [[links]]
-label = "Splatoon"
+label = "Splatoon Presets"
 href = "splatoon/"
 
 [[links]]

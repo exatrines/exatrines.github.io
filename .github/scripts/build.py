@@ -263,7 +263,7 @@ def wants_script_toc(meta: dict, og_path: str) -> bool:
 # ---------------------------------------------------------------------------
 
 def breadcrumbs_html(items: list[dict] | list[list] | None) -> str:
-    if not items:
+    if not items or len(items) < 2:
         return ""
     parts: list[str] = []
     n = len(items)
@@ -627,7 +627,7 @@ def render_home(meta: dict, body_md: str, *, og_path: str) -> str:
         </a>
         <nav class="nav">
           <a href="dalamud-plugins/">Dalamud Plugins</a>
-          <a href="splatoon/">Splatoon</a>
+          <a href="splatoon/">Splatoon Presets</a>
           <a href="support/">Support</a>
           <a href="https://github.com/exatrines" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
@@ -741,7 +741,7 @@ def render_page(
         </a>
         <nav class="nav">
           <a href="{prefix}dalamud-plugins/"{dalamud_cur}>Dalamud Plugins</a>
-          <a href="{prefix}splatoon/"{splatoon_cur}>Splatoon</a>
+          <a href="{prefix}splatoon/"{splatoon_cur}>Splatoon Presets</a>
           <a href="{prefix}support/"{support_cur}>Support</a>
           <a href="https://github.com/exatrines" target="_blank" rel="noreferrer">GitHub</a>
         </nav>

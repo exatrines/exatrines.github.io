@@ -4,9 +4,8 @@ description = "絶オメガ検証戦 フェーズ6 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 6"
 page_title = "フェーズ6 アルファオメガ"
-lede = "コスモアロー / コスモダイブ / リミッターカット / 波動砲 / コスモメテオ"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ6", href = "" },
 ]

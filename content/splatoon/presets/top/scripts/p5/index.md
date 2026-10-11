@@ -4,9 +4,8 @@ description = "絶オメガ検証戦 フェーズ5 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 5"
 page_title = "フェーズ5 デュナミス"
-lede = "コード：＊＊＊ミ＊ デルタ / シグマ / オメガ"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ5", href = "" },
 ]
@@ -14,7 +13,7 @@ breadcrumbs = [
 
 ## P5 デルタ
 
-紐処理、アーム誘導、バッシュ誘導、検知、最後のハロワまで全ての行動がガイドされます。頭上にヒントも表示されますが、テンポの速いギミックなのであくまで補助として使用することをお勧めします。
+紐処理、アーム誘導、バッシュ誘導、検知、最後のハロワまで全ての行動がガイドされます。頭上にヒントも表示されますが、テンポの速いギミックなのであくまで補助として使うことをお勧めします。
 
 #### URL
 
@@ -52,7 +51,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 ## P5 シグマ 塔踏み（マクロ押さない式）
 
-押さない式でどの塔に入るべきかガイドされます。このスクリプトでは波動砲の散開はガイドされないので、前述のスクリプトと組み合わせて使用してください。
+押さない式でどの塔に入るべきかガイドされます。このスクリプトでは波動砲の散開はガイドされないので、前述のスクリプトと組み合わせて使ってください。
 
 #### URL
 
@@ -60,7 +59,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/The%20Omega%20Protocol/P5_Dynamis_Sigma_Relative_Tower_Finder.cs
 ```
 
-#### コンフィグ: 既定
+#### コンフィグ
 
 ```
 {"TargetScriptName":"SplatoonScriptsOfficial.Duties.Endwalker.The_Omega_Protocol@P5_Dynamis_Sigma_Relative_Tower_Finder","ConfigurationName":"絶オメガ_シグママクロ押さない式","Configuration":null,"Overrides":null}

@@ -4,9 +4,8 @@ description = "（コンテンツ名） フェーズN スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase N"
 page_title = "フェーズN （ボス/系統名）"
-lede = "（ギミック名 / ギミック名）"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "（コンテンツ名）", href = "../../" },
   { label = "フェーズN", href = "" },
 ]
@@ -22,6 +21,7 @@ breadcrumbs = [
   - 「設定不要」のときは コンフィグ のコードを「設定不要」にする
   - コンフィグが複数あるときは #### コンフィグ: 名前 を並べる
   - スクリプト間に --- は使わない（見出し ## のスタイルで区切る）
+  - lede はタイトルだけでは足りない補足（準備中・削除予定など）。ギミック名の羅列は書かない
 -->
 
 ## （スクリプト名）
@@ -68,7 +68,7 @@ https://raw.githubusercontent.com/.../ScriptName.cs
 https://raw.githubusercontent.com/.../OtherScript.cs
 ```
 
-#### コンフィグ: 既定
+#### コンフィグ
 
 ![](/assets/splatoon/（コンテンツ）/（別スクリプト）_config.png)
 

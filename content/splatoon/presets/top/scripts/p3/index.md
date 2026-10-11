@@ -4,9 +4,8 @@ description = "絶オメガ検証戦 フェーズ3 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 3"
 page_title = "フェーズ3 ファイナルオメガ"
-lede = "コロッサスブロー / ハローワールド / 検知式波動砲"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ3", href = "" },
 ]
@@ -46,7 +45,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 #### コンフィグ: 任意
 
-ヒント表示やエフェクトの見た目を変更するのみのため導入は任意です。デフォルトでも問題ありません。
+ヒント表示やエフェクトの見た目を変えるだけなので、導入は任意です。デフォルトでも問題ありません。
 
 ```
 {"TargetScriptName":"SplatoonScriptsOfficial.Duties.Endwalker.The_Omega_Protocol@Hello_World","ConfigurationName":"絶オメガ_LilyDoll","Configuration":"GwsBIBypUx+Le0uFvvfa/dW5hWQpZEs02NwYoRjuJIAbMrXlgUN9FNBjd1GXBLrtbgLD6eaKScwORP15GUvnvopOkkNCoUrEpZnfNV0Na9qioEJ0jvsQ5EarHpIRll7k/NIxHqKh7up5P8wErtwWErFw8kn22UQwTP3owVgE","Overrides":null}

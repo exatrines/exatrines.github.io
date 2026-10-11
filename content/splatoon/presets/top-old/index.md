@@ -1,12 +1,12 @@
 +++
-title = "[削除予定] [6.4] 絶オメガ検証戦 — Splatoon"
+title = "[削除予定] [6.4] 絶オメガ検証戦 — Splatoon Presets"
 description = "[削除予定] 絶オメガ検証戦 レイアウト / スクリプト"
 nav = "splatoon"
 eyebrow = "endwalker · top"
 page_title = "[削除予定] [6.4] 絶オメガ検証戦"
 lede = "このページは削除予定です。最新は現行のページを参照してください。"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../" },
+  { label = "Splatoon Presets", href = "../../" },
   { label = "[削除予定] [6.4] 絶オメガ検証戦", href = "" },
 ]
 

@@ -1,11 +1,11 @@
 +++
-title = "[6.4] 絶オメガ検証戦 — Splatoon"
+title = "[6.4] 絶オメガ検証戦 — Splatoon Presets"
 description = "絶オメガ検証戦 レイアウト / スクリプト / プラグイン"
 nav = "splatoon"
 eyebrow = "endwalker · top"
 page_title = "[6.4] 絶オメガ検証戦"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../" },
+  { label = "Splatoon Presets", href = "../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "" },
 ]
 
@@ -42,6 +42,6 @@ items = [
 
 絶オメガ検証戦（TOP）向けのレイアウト / スクリプト / プラグインのまとめです。
 
-ほとんどのスクリプトは優先度設定が必要なので、`PriorityEditor`（`/splatoon p`）の設定は必ず行ってください。
+ほとんどのスクリプトは優先度設定が必要なので、`PriorityEditor`（`/splatoon p`）で必ず設定してください。
 
 日本で多く採用されている **基本りりど《HTDH/縦2列,南誘導/検知アスト/デルタハムカツ/シグマりょんめ塔wingwan式/最終ぬけまる》** を基準としています。固定などで採用されている P3 検知式波動砲の十字式や、P5 シグマの塔マクロ押さない式についても記載しています。

@@ -4,9 +4,8 @@ description = "絶オメガ検証戦 フェーズ4 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 4"
 page_title = "フェーズ4 リブート"
-lede = ""
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ4", href = "" },
 ]

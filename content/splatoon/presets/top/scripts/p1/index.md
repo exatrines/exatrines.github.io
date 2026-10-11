@@ -4,9 +4,8 @@ description = "絶オメガ検証戦 フェーズ1 スクリプト"
 nav = "splatoon"
 eyebrow = "script · phase 1"
 page_title = "フェーズ1 オメガ"
-lede = "サークルプログラム / パントクラトル"
 breadcrumbs = [
-  { label = "Splatoon", href = "../../../../" },
+  { label = "Splatoon Presets", href = "../../../../" },
   { label = "[6.4] 絶オメガ検証戦", href = "../../" },
   { label = "フェーズ1", href = "" },
 ]
@@ -40,7 +39,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 #### コンフィグ: 任意
 
-AOEの見た目を変更するのみのため導入は任意です。デフォルトでも問題ありません。
+AOEの見た目を変えるだけなので、導入は任意です。デフォルトでも問題ありません。
 
 ```
 {"TargetScriptName":"SplatoonScriptsOfficial.Duties.Endwalker.The_Omega_Protocol@Pantokrator","ConfigurationName":"絶オメガ_LilyDoll","Configuration":"G98BYKwOeHNXKDqBOz5aRHjny5QKe++1+5sgIn06t9TJjB0Yc7NabQbVZsBqNsjRFduczY7bYmgnobe1wDMNouC3N3x9oAeUhzpZ+BeycDMbSfK8Qf3O2jfSoyp7o0UVBCzaQsHhaV5n7CdIu5fayCsFCgBwCuLqxSLoAwsNbWxHTfYFEJ+d8HlJBg==","Overrides":"Gzo5IKyLN4ZEz14R2eJUaFGKyOj5KMaZvlGymL3X7m+J9LnJTP39DhRUy9sf6WzaM2xJVyV15bYI11KBCPeSOiBD5TZXZWh+ufZOJZE0dYRCVpl72aQArIGEup/dlK4AKBSR19UO0HjehjN0KgTxcE3ZXlq3V6xEOFQbwZK9d0Gc1EkWK7VV5X1QT0Qg7cLGQeh/UAhdL4qMehr+vrvyKpZZfYzAKxmU2Nbh7gGvQ+7r7f9lQtRpjq5H4O30ME2nVpkoDVFeo7DoHasE0yms0tnTl7O8Z6Vc2nTKn+ii0DYuZKb/Wvu3HeK7Lgqd6Wy3r79z0PISDlRbZttdNXk7GKJ5+XVWKIqnHaBsSsAmCYmfOKyhjSqbP4d7clHozTMQPFuBuGbDQ2HalBW/KU1INYLlgRqCLLCvKCNBILeExRjOR/W2CUgZdHPWc3SBPlAoAKBnHBPy1ktLe1RkITe79g1LdkiPSdkf7xvo9aZUhJtSkXYOUT9eGryHa4XPZz+9VqvdqS/khxpLKkjiLhdFBSvU2MkTlLgLp/YTBI+Mol0vfIyaTsipuKFhF4Axhro7OcGcLdc/3zXEdna/sm87qgWPOaApp0ig0RWALOsiWz07HHM5gbEnNUaKsrXszGm2OWvig+a0ZyIlCGaTRupDH0xUWQc9QEoo8jPgHi5OZh4z75Z/B50FmEFHeJZrfHnwrMKscit1B51lmJ4DxXTQpkwqImxD+ewCIWqpzJEQQ41BiGQmMEOO2izWlG2rNrgkp/29siSiproIm0+qok4gLg0swbmciavWvDjWICGSi0wnGevUL9otpZYb54oCf4xbs7zLsixXZa6+j/jlewkQ5jO2tJkVy8GAgRB6YFEHdPmpHXysNDqKNSCsKCxNSwoAxhrNKEoznWJFCUtgilYmCMxs62IIbAUjJkcgVbUDFXjk4iirLAz1GF671bEjY9Rw2b+WHdF5BqZ9k1VTrlKiSTmPRmqkz0REJgu/15apE2YjjrVO7KX48InwRUnaARdAilIwBTukARmA9kg+hI7wBd351n3GOURZyAz51NolqEmxQmp+Y8psT5Jfn3BMq1ffItGhyeGPdgUA6lyss5aaWGVVWtHoYDQIcgsaw+/XXkd1XS2VLJtlnyujWzQZgKWQ93drd+my+sIRaW0/+QcAzNSw8WVJWDOZuhjbBdoKpnE5/y4FAI1jnyFp/FjuuxWUtsozKQ0="}

@@ -4,7 +4,6 @@ description = "軽減やバーストなどのスキル使用タイミングを�
 nav = "dalamud"
 eyebrow = "dalamud · oracle"
 page_title = "Oracle"
-lede = "軽減やバーストなどのスキル使用タイミングを、タイムラインとして見える化します。"
 footer_href = "https://github.com/exatrines/Oracle"
 footer_label = "Repo on GitHub"
 toc = true
