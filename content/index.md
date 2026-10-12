@@ -1,8 +1,8 @@
 +++
-title = "mirage"
-description = "mirage — FF14向けのDalamudプラグインやSplatoon用のスクリプトを作成しています。"
+title = "mirage hub"
+description = "mirage hub — FF14向けのDalamudプラグインやSplatoon用のスクリプトを作成しています。"
 layout = "home"
-brand = "mirage"
+brand = "mirage hub"
 lede = "FF14向けのDalamudプラグインやSplatoon用のスクリプトを作成しています。"
 og_image = "https://avatars.githubusercontent.com/u/214582519?v=4"
 

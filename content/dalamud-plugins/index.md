@@ -1,5 +1,5 @@
 +++
-title = "Dalamud Plugins — mirage"
+title = "Dalamud Plugins — mirage hub"
 description = "mirage の Dalamud プラグイン。Oracle / Goetia / Enhanced Quick Panel / DTR Overlay / Auto Frontline など。"
 nav = "dalamud"
 eyebrow = "plugins"

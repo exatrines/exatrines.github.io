@@ -1,5 +1,5 @@
 +++
-title = "Support — mirage"
+title = "Support — mirage hub"
 description = "OFUSE / Ko-fi での支援受付。プラグイン・スクリプト制作の励みになります。"
 nav = "support"
 eyebrow = "support"

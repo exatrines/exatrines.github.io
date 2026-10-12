@@ -1,6 +1,6 @@
 # exatrines.github.io
 
-Portfolio site for [mirage](https://github.com/exatrines).
+mirage hub, the portfolio site for [mirage](https://github.com/exatrines).
 
 - Home: https://exatrines.github.io/
 - Plugins: https://exatrines.github.io/dalamud-plugins/

@@ -547,7 +547,7 @@ def parent_back_link(
         if href:
             ancestors.append((label, href))
     if not ancestors:
-        return prefix, "← mirage"
+        return prefix, "← mirage hub"
     label, href = ancestors[-1]
     return href, f"← {label}"
 
@@ -577,9 +577,9 @@ def default_footer_end_html(
 
 
 def render_home(meta: dict, body_md: str, *, og_path: str) -> str:
-    title = str(meta.get("title", "mirage"))
+    title = str(meta.get("title", "mirage hub"))
     description = str(meta.get("description", ""))
-    brand = str(meta.get("brand") or meta.get("page_title") or "mirage")
+    brand = str(meta.get("brand") or meta.get("page_title") or "mirage hub")
     lede = meta.get("lede")
     og_image = meta.get("og_image")
     links = meta.get("links") or []
@@ -622,7 +622,7 @@ def render_home(meta: dict, body_md: str, *, og_path: str) -> str:
 
     <div class="page page-home-inner">
       <header class="site-header reveal">
-        <a class="brand-mark" href="./" aria-label="mirage home">
+        <a class="brand-mark" href="./" aria-label="mirage hub home">
           <img src="assets/avatar.jpg" alt="" width="36" height="36" />
         </a>
         <nav class="nav">
@@ -663,7 +663,7 @@ def render_page(
     if layout == "home":
         return render_home(meta, body_md, og_path=og_path)
 
-    title = str(meta.get("title", "mirage"))
+    title = str(meta.get("title", "mirage hub"))
     description = str(meta.get("description", ""))
     nav = str(meta.get("nav", "splatoon"))
     eyebrow = meta.get("eyebrow")
@@ -736,7 +736,7 @@ def render_page(
 {atmosphere_html()}
     <div class="page">
       <header class="site-header reveal">
-        <a class="brand-mark" href="{prefix}" aria-label="mirage home">
+        <a class="brand-mark" href="{prefix}" aria-label="mirage hub home">
           <img src="{prefix}assets/avatar.jpg" alt="" width="36" height="36" />
         </a>
         <nav class="nav">

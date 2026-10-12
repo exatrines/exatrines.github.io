@@ -1,5 +1,5 @@
 +++
-title = "Splatoon Presets — mirage"
+title = "Splatoon Presets — mirage hub"
 description = "各種コンテンツで便利な、Splatoon用のレイアウト・スクリプトや補助プラグインをまとめています。"
 nav = "splatoon"
 eyebrow = "splatoon"
