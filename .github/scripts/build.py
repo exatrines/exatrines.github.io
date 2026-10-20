@@ -253,6 +253,8 @@ def wants_script_toc(meta: dict, og_path: str) -> bool:
         "/presets/dmad/scripts/" in path
         or "/presets/top/scripts/" in path
         or "/presets/top-old/scripts/" in path
+        or "/presets/tea/scripts/" in path
+        or "/presets/ucob/scripts/" in path
         or "/presets/dsr/scripts/" in path
     )
 
