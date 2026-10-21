@@ -1,12 +1,12 @@
 +++
-title = "スクリプト — 絶アレキサンダー討滅線"
-description = "絶アレキサンダー討滅線 スクリプト"
+title = "スクリプト — 絶アレキサンダー討滅戦"
+description = "絶アレキサンダー討滅戦 スクリプト"
 nav = "splatoon"
 eyebrow = "script"
 page_title = "スクリプト"
 breadcrumbs = [
   { label = "Splatoon Presets", href = "../../../" },
-  { label = "[5.1] 絶アレキサンダー討滅線", href = "../" },
+  { label = "[5.1] 絶アレキサンダー討滅戦", href = "../" },
   { label = "スクリプト", href = "" },
 ]
 +++

@@ -1,12 +1,12 @@
 +++
-title = "[4.1] 絶バハムート討滅線 — Splatoon Presets"
-description = "絶バハムート討滅線 レイアウト / スクリプト"
+title = "[4.1] 絶バハムート討滅戦 — Splatoon Presets"
+description = "絶バハムート討滅戦 レイアウト / スクリプト"
 nav = "splatoon"
 eyebrow = "stormblood · ucob"
-page_title = "[4.1] 絶バハムート討滅線"
+page_title = "[4.1] 絶バハムート討滅戦"
 breadcrumbs = [
   { label = "Splatoon Presets", href = "../../" },
-  { label = "[4.1] 絶バハムート討滅線", href = "" },
+  { label = "[4.1] 絶バハムート討滅戦", href = "" },
 ]
 og_image = "https://exatrines.github.io/assets/splatoon/ucob/og.png"
 
@@ -28,6 +28,6 @@ items = [
 ]
 +++
 
-絶バハムート討滅線（UCOB）向けのレイアウト / スクリプトのまとめです。
+絶バハムート討滅戦（UCOB）向けのレイアウト / スクリプトのまとめです。
 
 日本で多く採用されている **基本りりど《新みんとっと/H3構成/拘束具逆▽/カータTLB/進軍十字/連撃V字/群竜TLB》** を基準としています。
