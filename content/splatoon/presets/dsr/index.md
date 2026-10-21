@@ -8,6 +8,7 @@ breadcrumbs = [
   { label = "Splatoon Presets", href = "../../" },
   { label = "[6.1] 絶竜詩戦争", href = "" },
 ]
+og_image = "https://exatrines.github.io/assets/splatoon/dsr/og.png"
 
 [[changelog]]
 date = "2026/10/11"

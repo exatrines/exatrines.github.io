@@ -27,6 +27,18 @@ ASSETS = ROOT / "assets"
 FILES = ROOT / "files"
 SITE_URL = "https://exatrines.github.io"
 DISCORD_INVITE = "https://discord.gg/gRfxXNZWMs"
+PRESET_OG_SLUGS = ("ucob", "tea", "dsr", "top", "dmad")
+
+
+def preset_og_image(og_path: str) -> str | None:
+    """Duty-hub OG image for Splatoon preset pages, including layout/script children."""
+    for slug in PRESET_OG_SLUGS:
+        prefix = f"splatoon/presets/{slug}/"
+        if og_path == prefix or og_path.startswith(prefix):
+            if (ASSETS / "splatoon" / slug / "og.png").is_file():
+                return f"{SITE_URL}/assets/splatoon/{slug}/og.png"
+            return None
+    return None
 
 GITHUB_SVG = """<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
               <path
@@ -463,9 +475,19 @@ def head_html(
     extra_css: bool = True,
 ) -> str:
     og_url = f"{SITE_URL}/" if not og_path else f"{SITE_URL}/{og_path}"
+    image = str(og_image).strip() if og_image else ""
+    if not image:
+        image = preset_og_image(og_path) or ""
+    if image and not image.startswith(("http://", "https://")):
+        image = f"{SITE_URL}/{image.lstrip('/')}"
     og_img = ""
-    if og_image:
-        og_img = f'\n    <meta property="og:image" content="{html.escape(str(og_image))}" />'
+    if image:
+        og_esc = html.escape(image)
+        og_img = (
+            f'\n    <meta property="og:image" content="{og_esc}" />'
+            f'\n    <meta name="twitter:card" content="summary_large_image" />'
+            f'\n    <meta name="twitter:image" content="{og_esc}" />'
+        )
     fa = ""
     if extra_css:
         fa = """
